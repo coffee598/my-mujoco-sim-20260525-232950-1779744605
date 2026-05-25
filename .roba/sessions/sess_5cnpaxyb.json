@@ -1,0 +1,50 @@
+{
+  "sessionId": "sess_5cnpaxyb",
+  "fullHistory": [
+    {
+      "role": "user",
+      "content": "[ROBA_WELCOME_TRIGGER]"
+    },
+    {
+      "role": "assistant",
+      "content": "Hey! I'm Roba Copilot — your co-pilot for the Unitree G1. Here's what we can do together:\n\n🤖 Poses\n\"Make the robot stand in a relaxed pose.\"\n\"Raise both arms to wave hello.\"\n\"Sit the robot down on a chair.\"\n\n✋ Hands\n\"Close the left hand into a fist.\"\n\"Open the right hand to point forward.\"\n\"Tap the left thumb against the palm.\"\n\n🎬 Simulation\n\"Walk forward across the room.\"\n\"Turn the torso left while stepping.\"\n\"Perform a quick crouch and rise.\"\n\n⌨️ Code & Controls\n\"Add keyboard shortcuts to control arm movements.\"\n\"Implement a simple walking controller in JavaScript.\"\n\"Create a GUI slider to adjust wrist rotation.\""
+    },
+    {
+      "role": "assistant",
+      "content": "Hey there! 👋 Welcome to **Roba Studio** — great to have you here!\n\nI'm your co-pilot for the **Unitree G1**, ready to help you build, pose, animate, and control your robot. Just tell me what you'd like to do and we'll bring it to life together! 🚀"
+    },
+    {
+      "role": "user",
+      "content": "add a table into the scene"
+    },
+    {
+      "role": "assistant",
+      "content": "All clean! ✅ The fix was simple — renamed the texture from `\"grid\"` to `\"grid_tex\"` so it no longer clashes with the material named `\"grid\"`. The table is now in your scene at position `(1.2, 0, 0)` with a wooden-toned tabletop and four legs."
+    }
+  ],
+  "agentHistory": [
+    {
+      "role": "user",
+      "content": "[ROBA_WELCOME_TRIGGER]"
+    },
+    {
+      "role": "assistant",
+      "content": "Hey! I'm Roba Copilot — your co-pilot for the Unitree G1. Here's what we can do together:\n\n🤖 Poses\n\"Make the robot stand in a relaxed pose.\"\n\"Raise both arms to wave hello.\"\n\"Sit the robot down on a chair.\"\n\n✋ Hands\n\"Close the left hand into a fist.\"\n\"Open the right hand to point forward.\"\n\"Tap the left thumb against the palm.\"\n\n🎬 Simulation\n\"Walk forward across the room.\"\n\"Turn the torso left while stepping.\"\n\"Perform a quick crouch and rise.\"\n\n⌨️ Code & Controls\n\"Add keyboard shortcuts to control arm movements.\"\n\"Implement a simple walking controller in JavaScript.\"\n\"Create a GUI slider to adjust wrist rotation.\""
+    },
+    {
+      "role": "assistant",
+      "content": "Hey there! 👋 Welcome to **Roba Studio** — great to have you here!\n\nI'm your co-pilot for the **Unitree G1**, ready to help you build, pose, animate, and control your robot. Just tell me what you'd like to do and we'll bring it to life together! 🚀"
+    },
+    {
+      "role": "user",
+      "content": "add a table into the scene"
+    },
+    {
+      "role": "assistant",
+      "content": "All clean! ✅ The fix was simple — renamed the texture from `\"grid\"` to `\"grid_tex\"` so it no longer clashes with the material named `\"grid\"`. The table is now in your scene at position `(1.2, 0, 0)` with a wooden-toned tabletop and four legs."
+    }
+  ],
+  "compressionCount": 0,
+  "workspaceRoot": "/home/robacrh/roba/roba-laravel/repos/coffee598/my-mujoco-sim-20260525-232950-1779744605",
+  "savedAt": 1779744769376
+}

@@ -1,0 +1,6 @@
+{
+  "model": "serv/serv-standard",
+  "superAgentModel": "anthropic/claude-sonnet-4.6",
+  "projectRoot": "/home/robacrh/roba/roba-laravel/repos/coffee598/my-mujoco-sim-20260525-232950-1779744605",
+  "superAgentEnabled": false
+}
