@@ -30,65 +30,99 @@
     <global azimuth="-130" elevation="-20"/>
   </visual>
   <asset>
-    <mesh name="pelvis" file="pelvis.STL" />
-    <mesh name="pelvis_contour_link" file="pelvis_contour_link.STL" />
-    <mesh name="left_hip_pitch_link" file="left_hip_pitch_link.STL" />
-    <mesh name="left_hip_roll_link" file="left_hip_roll_link.STL" />
-    <mesh name="left_hip_yaw_link" file="left_hip_yaw_link.STL" />
-    <mesh name="left_knee_link" file="left_knee_link.STL" />
-    <mesh name="left_ankle_pitch_link" file="left_ankle_pitch_link.STL" />
-    <mesh name="left_ankle_roll_link" file="left_ankle_roll_link.STL" />
-    <mesh name="right_hip_pitch_link" file="right_hip_pitch_link.STL" />
-    <mesh name="right_hip_roll_link" file="right_hip_roll_link.STL" />
-    <mesh name="right_hip_yaw_link" file="right_hip_yaw_link.STL" />
-    <mesh name="right_knee_link" file="right_knee_link.STL" />
-    <mesh name="right_ankle_pitch_link" file="right_ankle_pitch_link.STL" />
-    <mesh name="right_ankle_roll_link" file="right_ankle_roll_link.STL" />
-    <mesh name="waist_yaw_link" file="waist_yaw_link.STL" />
-    <mesh name="waist_roll_link" file="waist_roll_link.STL" />
-    <mesh name="torso_link" file="torso_link.STL" />
-    <mesh name="logo_link" file="logo_link.STL" />
-    <mesh name="head_link" file="head_link.STL" />
-    <mesh name="waist_support_link" file="waist_support_link.STL" />
-    <mesh name="left_shoulder_pitch_link" file="left_shoulder_pitch_link.STL" />
-    <mesh name="left_shoulder_roll_link" file="left_shoulder_roll_link.STL" />
-    <mesh name="left_shoulder_yaw_link" file="left_shoulder_yaw_link.STL" />
-    <mesh name="left_elbow_link" file="left_elbow_link.STL" />
-    <mesh name="left_wrist_roll_link" file="left_wrist_roll_link.STL" />
-    <mesh name="left_wrist_pitch_link" file="left_wrist_pitch_link.STL" />
-    <mesh name="left_wrist_yaw_link" file="left_wrist_yaw_link.STL" />
-    <mesh name="left_hand_palm_link" file="left_hand_palm_link.STL" />
-    <mesh name="left_hand_thumb_0_link" file="left_hand_thumb_0_link.STL" />
-    <mesh name="left_hand_thumb_1_link" file="left_hand_thumb_1_link.STL" />
-    <mesh name="left_hand_thumb_2_link" file="left_hand_thumb_2_link.STL" />
-    <mesh name="left_hand_middle_0_link" file="left_hand_middle_0_link.STL" />
-    <mesh name="left_hand_middle_1_link" file="left_hand_middle_1_link.STL" />
-    <mesh name="left_hand_index_0_link" file="left_hand_index_0_link.STL" />
-    <mesh name="left_hand_index_1_link" file="left_hand_index_1_link.STL" />
-    <mesh name="right_shoulder_pitch_link" file="right_shoulder_pitch_link.STL" />
-    <mesh name="right_shoulder_roll_link" file="right_shoulder_roll_link.STL" />
-    <mesh name="right_shoulder_yaw_link" file="right_shoulder_yaw_link.STL" />
-    <mesh name="right_elbow_link" file="right_elbow_link.STL" />
-    <mesh name="right_wrist_roll_link" file="right_wrist_roll_link.STL" />
-    <mesh name="right_wrist_pitch_link" file="right_wrist_pitch_link.STL" />
-    <mesh name="right_wrist_yaw_link" file="right_wrist_yaw_link.STL" />
-    <mesh name="right_hand_palm_link" file="right_hand_palm_link.STL" />
-    <mesh name="right_hand_thumb_0_link" file="right_hand_thumb_0_link.STL" />
-    <mesh name="right_hand_thumb_1_link" file="right_hand_thumb_1_link.STL" />
-    <mesh name="right_hand_thumb_2_link" file="right_hand_thumb_2_link.STL" />
-    <mesh name="right_hand_middle_0_link" file="right_hand_middle_0_link.STL" />
-    <mesh name="right_hand_middle_1_link" file="right_hand_middle_1_link.STL" />
-    <mesh name="right_hand_index_0_link" file="right_hand_index_0_link.STL" />
-    <mesh name="right_hand_index_1_link" file="right_hand_index_1_link.STL" />
+    <mesh name="pelvis_mesh" file="pelvis.STL" />
+    <mesh name="pelvis_contour_link_mesh" file="pelvis_contour_link.STL" />
+    <mesh name="left_hip_pitch_link_mesh" file="left_hip_pitch_link.STL" />
+    <mesh name="left_hip_roll_link_mesh" file="left_hip_roll_link.STL" />
+    <mesh name="left_hip_yaw_link_mesh" file="left_hip_yaw_link.STL" />
+    <mesh name="left_knee_link_mesh" file="left_knee_link.STL" />
+    <mesh name="left_ankle_pitch_link_mesh" file="left_ankle_pitch_link.STL" />
+    <mesh name="left_ankle_roll_link_mesh" file="left_ankle_roll_link.STL" />
+    <mesh name="right_hip_pitch_link_mesh" file="right_hip_pitch_link.STL" />
+    <mesh name="right_hip_roll_link_mesh" file="right_hip_roll_link.STL" />
+    <mesh name="right_hip_yaw_link_mesh" file="right_hip_yaw_link.STL" />
+    <mesh name="right_knee_link_mesh" file="right_knee_link.STL" />
+    <mesh name="right_ankle_pitch_link_mesh" file="right_ankle_pitch_link.STL" />
+    <mesh name="right_ankle_roll_link_mesh" file="right_ankle_roll_link.STL" />
+    <mesh name="waist_yaw_link_mesh" file="waist_yaw_link.STL" />
+    <mesh name="waist_roll_link_mesh" file="waist_roll_link.STL" />
+    <mesh name="torso_link_mesh" file="torso_link.STL" />
+    <mesh name="logo_link_mesh" file="logo_link.STL" />
+    <mesh name="head_link_mesh" file="head_link.STL" />
+    <mesh name="waist_support_link_mesh" file="waist_support_link.STL" />
+    <mesh name="left_shoulder_pitch_link_mesh" file="left_shoulder_pitch_link.STL" />
+    <mesh name="left_shoulder_roll_link_mesh" file="left_shoulder_roll_link.STL" />
+    <mesh name="left_shoulder_yaw_link_mesh" file="left_shoulder_yaw_link.STL" />
+    <mesh name="left_elbow_link_mesh" file="left_elbow_link.STL" />
+    <mesh name="left_wrist_roll_link_mesh" file="left_wrist_roll_link.STL" />
+    <mesh name="left_wrist_pitch_link_mesh" file="left_wrist_pitch_link.STL" />
+    <mesh name="left_wrist_yaw_link_mesh" file="left_wrist_yaw_link.STL" />
+    <mesh name="left_hand_palm_link_mesh" file="left_hand_palm_link.STL" />
+    <mesh name="left_hand_thumb_0_link_mesh" file="left_hand_thumb_0_link.STL" />
+    <mesh name="left_hand_thumb_1_link_mesh" file="left_hand_thumb_1_link.STL" />
+    <mesh name="left_hand_thumb_2_link_mesh" file="left_hand_thumb_2_link.STL" />
+    <mesh name="left_hand_middle_0_link_mesh" file="left_hand_middle_0_link.STL" />
+    <mesh name="left_hand_middle_1_link_mesh" file="left_hand_middle_1_link.STL" />
+    <mesh name="left_hand_index_0_link_mesh" file="left_hand_index_0_link.STL" />
+    <mesh name="left_hand_index_1_link_mesh" file="left_hand_index_1_link.STL" />
+    <mesh name="right_shoulder_pitch_link_mesh" file="right_shoulder_pitch_link.STL" />
+    <mesh name="right_shoulder_roll_link_mesh" file="right_shoulder_roll_link.STL" />
+    <mesh name="right_shoulder_yaw_link_mesh" file="right_shoulder_yaw_link.STL" />
+    <mesh name="right_elbow_link_mesh" file="right_elbow_link.STL" />
+    <mesh name="right_wrist_roll_link_mesh" file="right_wrist_roll_link.STL" />
+    <mesh name="right_wrist_pitch_link_mesh" file="right_wrist_pitch_link.STL" />
+    <mesh name="right_wrist_yaw_link_mesh" file="right_wrist_yaw_link.STL" />
+    <mesh name="right_hand_palm_link_mesh" file="right_hand_palm_link.STL" />
+    <mesh name="right_hand_thumb_0_link_mesh" file="right_hand_thumb_0_link.STL" />
+    <mesh name="right_hand_thumb_1_link_mesh" file="right_hand_thumb_1_link.STL" />
+    <mesh name="right_hand_thumb_2_link_mesh" file="right_hand_thumb_2_link.STL" />
+    <mesh name="right_hand_middle_0_link_mesh" file="right_hand_middle_0_link.STL" />
+    <mesh name="right_hand_middle_1_link_mesh" file="right_hand_middle_1_link.STL" />
+    <mesh name="right_hand_index_0_link_mesh" file="right_hand_index_0_link.STL" />
+    <mesh name="right_hand_index_1_link_mesh" file="right_hand_index_1_link.STL" />
     <texture type="skybox" builtin="gradient" rgb1="0.3 0.5 0.7" rgb2="0 0 0" width="512" height="3072"/>
-    <texture type="2d" name="groundplane" builtin="checker" mark="edge" rgb1="0.2 0.3 0.4" rgb2="0.1 0.2 0.3"
+    <texture type="2d" name="groundplane_tex" builtin="checker" mark="edge" rgb1="0.2 0.3 0.4" rgb2="0.1 0.2 0.3"
       markrgb="0.8 0.8 0.8" width="300" height="300"/>
-    <material name="groundplane" texture="groundplane" texuniform="true" texrepeat="5 5" reflectance="0.2"/>
+    <material name="groundplane" texture="groundplane_tex" texuniform="true" texrepeat="5 5" reflectance="0.2"/>
   </asset>
 
   <worldbody>
     <light pos="0 0 3" dir="0 0 -1" directional="true"/>
     <geom name="floor" size="0 0 0.05" type="plane" material="groundplane"/>
+
+    <!-- Table placed 0.65 m in front of the robot (positive Y), surface at 0.75 m height -->
+    <!-- Moved closer so the robot can reach it after stepping forward -->
+    <!-- Free joint makes the table a dynamic body so the robot can lift it -->
+    <body name="table" pos="0 0.65 0">
+      <freejoint name="table_free"/>
+      <!-- Table top -->
+      <geom name="table_top" type="box" size="0.4 0.3 0.02"
+            pos="0 0 0.75" rgba="0.6 0.4 0.2 1" contype="1" conaffinity="1" mass="8"/>
+      <!-- Four legs -->
+      <geom name="table_leg_fl" type="cylinder" size="0.02 0.365"
+            pos=" 0.36  0.26 0.365" rgba="0.5 0.3 0.15 1" contype="1" conaffinity="1" mass="1"/>
+      <geom name="table_leg_fr" type="cylinder" size="0.02 0.365"
+            pos="-0.36  0.26 0.365" rgba="0.5 0.3 0.15 1" contype="1" conaffinity="1" mass="1"/>
+      <geom name="table_leg_bl" type="cylinder" size="0.02 0.365"
+            pos=" 0.36 -0.26 0.365" rgba="0.5 0.3 0.15 1" contype="1" conaffinity="1" mass="1"/>
+      <geom name="table_leg_br" type="cylinder" size="0.02 0.365"
+            pos="-0.36 -0.26 0.365" rgba="0.5 0.3 0.15 1" contype="1" conaffinity="1" mass="1"/>
+    </body>
+    <!-- Identical table placed 0.8 m behind the robot (negative Y) -->
+    <body name="table2" pos="0 -0.8 0">
+      <!-- Table top -->
+      <geom name="table2_top" type="box" size="0.4 0.3 0.02"
+            pos="0 0 0.75" rgba="0.6 0.4 0.2 1" contype="1" conaffinity="1"/>
+      <!-- Four legs -->
+      <geom name="table2_leg_fl" type="cylinder" size="0.02 0.365"
+            pos=" 0.36  0.26 0.365" rgba="0.5 0.3 0.15 1" contype="1" conaffinity="1"/>
+      <geom name="table2_leg_fr" type="cylinder" size="0.02 0.365"
+            pos="-0.36  0.26 0.365" rgba="0.5 0.3 0.15 1" contype="1" conaffinity="1"/>
+      <geom name="table2_leg_bl" type="cylinder" size="0.02 0.365"
+            pos=" 0.36 -0.26 0.365" rgba="0.5 0.3 0.15 1" contype="1" conaffinity="1"/>
+      <geom name="table2_leg_br" type="cylinder" size="0.02 0.365"
+            pos="-0.36 -0.26 0.365" rgba="0.5 0.3 0.15 1" contype="1" conaffinity="1"/>
+    </body>
     <body name="pelvis" pos="0 0 0.793">
       <inertial pos="0 0 -0.07605" quat="1 0 -0.000399148 0" mass="3.813"
         diaginertia="0.010549 0.0093089 0.0079184" />
@@ -96,18 +130,18 @@
            To enable free-body dynamics, uncomment:
            <joint name="floating_base_joint" type="free" limited="false" actuatorfrclimited="false" /> -->
       <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.2 0.2 0.2 1"
-        mesh="pelvis" />
+        mesh="pelvis_mesh" />
       <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1"
-        mesh="pelvis_contour_link" />
-      <geom type="mesh" rgba="0.7 0.7 0.7 1" mesh="pelvis_contour_link" />
+        mesh="pelvis_contour_link_mesh" />
+      <geom type="mesh" rgba="0.7 0.7 0.7 1" mesh="pelvis_contour_link_mesh" />
       <body name="left_hip_pitch_link" pos="0 0.064452 -0.1027">
         <inertial pos="0.002741 0.047791 -0.02606" quat="0.954862 0.293964 0.0302556 0.030122"
           mass="1.35" diaginertia="0.00181517 0.00153422 0.00116212" />
         <joint name="left_hip_pitch_joint" pos="0 0 0" axis="0 1 0" range="-2.5307 2.8798"
           actuatorfrcrange="-88 88" class="leg_motor" />
         <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.2 0.2 0.2 1"
-          mesh="left_hip_pitch_link" />
-        <geom type="mesh" rgba="0.2 0.2 0.2 1" mesh="left_hip_pitch_link" />
+          mesh="left_hip_pitch_link_mesh" />
+        <geom type="mesh" rgba="0.2 0.2 0.2 1" mesh="left_hip_pitch_link_mesh" />
         <body name="left_hip_roll_link" pos="0 0.052 -0.030465" quat="0.996179 0 -0.0873386 0">
           <inertial pos="0.029812 -0.001045 -0.087934"
             quat="0.977808 -1.97119e-05 0.205576 -0.0403793" mass="1.52"
@@ -115,16 +149,16 @@
           <joint name="left_hip_roll_joint" pos="0 0 0" axis="1 0 0" range="-0.5236 2.9671"
             actuatorfrcrange="-88 88" class="leg_motor" />
           <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1"
-            mesh="left_hip_roll_link" />
-          <geom type="mesh" rgba="0.7 0.7 0.7 1" mesh="left_hip_roll_link" />
+            mesh="left_hip_roll_link_mesh" />
+          <geom type="mesh" rgba="0.7 0.7 0.7 1" mesh="left_hip_roll_link_mesh" />
           <body name="left_hip_yaw_link" pos="0.025001 0 -0.12412">
             <inertial pos="-0.057709 -0.010981 -0.15078" quat="0.600598 0.15832 0.223482 0.751181"
               mass="1.702" diaginertia="0.00776166 0.00717575 0.00160139" />
             <joint name="left_hip_yaw_joint" pos="0 0 0" axis="0 0 1" range="-2.7576 2.7576"
               actuatorfrcrange="-88 88" class="leg_motor" />
             <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1"
-              mesh="left_hip_yaw_link" />
-            <geom type="mesh" rgba="0.7 0.7 0.7 1" mesh="left_hip_yaw_link" />
+              mesh="left_hip_yaw_link_mesh" />
+            <geom type="mesh" rgba="0.7 0.7 0.7 1" mesh="left_hip_yaw_link_mesh" />
             <body name="left_knee_link" pos="-0.078273 0.0021489 -0.17734"
               quat="0.996179 0 0.0873386 0">
               <inertial pos="0.005457 0.003964 -0.12074"
@@ -297,8 +331,8 @@
                       <joint name="left_wrist_roll_joint" pos="0 0 0" axis="1 0 0"
                         range="-1.97222 1.97222" actuatorfrcrange="-25 25" class="arm_motor" />
                       <geom type="mesh" contype="0" conaffinity="0" group="1" density="0"
-                        rgba="0.7 0.7 0.7 1" mesh="left_wrist_roll_link" />
-                      <geom type="mesh" rgba="0.7 0.7 0.7 1" mesh="left_wrist_roll_link" />
+                        rgba="0.7 0.7 0.7 1" mesh="left_wrist_roll_link_mesh" />
+                      <geom type="mesh" rgba="0.7 0.7 0.7 1" mesh="left_wrist_roll_link_mesh" />
                       <body name="left_wrist_pitch_link" pos="0.038 0 0">
                         <inertial pos="0.0229999 -0.00111685 -0.00111658"
                           quat="0.249998 0.661363 0.293036 0.643608" mass="0.48405"

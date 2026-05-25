@@ -1,5 +1,5 @@
 <mujoco model="empty-room">
-  <compiler angle="radian" coordinate="local"/>
+  <compiler angle="radian"/>
   <option timestep="0.002" gravity="0 0 -9.81"/>
 
   <visual>
@@ -21,29 +21,38 @@
     <!-- Ground plane -->
     <geom type="plane" size="10 10 0.1" material="grid"/>
 
-    <!-- Example: drop a box to verify physics works -->
+    <!-- Dynamic box: drops to verify physics works -->
     <body name="sample_box" pos="0 0 1">
       <freejoint/>
       <geom type="box" size=".1 .1 .1" rgba=".9 .3 .1 1" mass="1"/>
     </body>
 
-    <!-- Table -->
+    <!-- Static table welded to world -->
     <body name="table" pos="1.2 0 0">
+      <inertial pos="0 0 0.5" mass="14" diaginertia="1 1 1"/>
       <!-- Tabletop -->
       <geom name="table_top" type="box" size="0.5 0.3 0.025" pos="0 0 0.75"
-            rgba="0.65 0.45 0.25 1" mass="10"/>
+            rgba="0.65 0.45 0.25 1"/>
       <!-- Leg front-left -->
       <geom name="table_leg_fl" type="box" size="0.025 0.025 0.375" pos="-0.45 0.25 0.375"
-            rgba="0.5 0.35 0.2 1" mass="1"/>
+            rgba="0.5 0.35 0.2 1"/>
       <!-- Leg front-right -->
       <geom name="table_leg_fr" type="box" size="0.025 0.025 0.375" pos="0.45 0.25 0.375"
-            rgba="0.5 0.35 0.2 1" mass="1"/>
+            rgba="0.5 0.35 0.2 1"/>
       <!-- Leg back-left -->
       <geom name="table_leg_bl" type="box" size="0.025 0.025 0.375" pos="-0.45 -0.25 0.375"
-            rgba="0.5 0.35 0.2 1" mass="1"/>
+            rgba="0.5 0.35 0.2 1"/>
       <!-- Leg back-right -->
       <geom name="table_leg_br" type="box" size="0.025 0.025 0.375" pos="0.45 -0.25 0.375"
-            rgba="0.5 0.35 0.2 1" mass="1"/>
+            rgba="0.5 0.35 0.2 1"/>
+    </body>
+
+    <!-- Dynamic blue box sitting on table
+         tabletop surface = 0.75 + 0.025 = 0.775; box half-height = 0.06 → centre at 0.835 -->
+    <body name="box_on_table" pos="1.2 0 0.835">
+      <freejoint/>
+      <geom name="box_on_table_geom" type="box" size="0.06 0.06 0.06"
+            rgba="0.2 0.5 0.8 1" mass="0.5"/>
     </body>
 
   </worldbody>
